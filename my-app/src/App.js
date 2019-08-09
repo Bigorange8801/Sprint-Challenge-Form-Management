@@ -1,13 +1,16 @@
 import React from 'react';
-import Form from './component/Form';
+import FormUser from './component/FormUser';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <Form/>
+class App extends React.Component {
+  constructor() {
+    super();
+  }
+  render() {
+    return <div>
+      <FormUser/>
     </div>
-  );
+  }
 }
 
 export default App;
