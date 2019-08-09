@@ -18,7 +18,7 @@ const FormUser = (props) => {
             <Field  type="text" name="name" placeholder="Your name"/>
             {touched.password && errors.password && <p classPassword="error">(errors.password)</p>}
             <Field type="password" name="password" placeholder="password"/>
-            <button type="submit">Submit</button>
+            <button data-testid="submit" type="submit">Submit</button>
             {users.map(user => <div key={user.id}>{JSON.stringify(user)}</div>)}
         </Form>
     );
