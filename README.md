@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] What are the required parts of class components?
 
+    The rquired parts are class, constructor, and super.     
+
 - [ ] Name at least three lifecycle methods?
+
+    mounting phase, updating phase, and unmounting phase
 
 - [ ] Why are forms used so often in web applications and software?
 
+    It allows the user to send data to a serve.
+
 - [ ] What advantages are there by using a forms library like Formik?
 
+    The library helps control state and validation can be done between user inputs. 
+
 - [ ] Why do we write tests for our apps?
+
+    To ensure all components are working.
 
 ## Project Set Up
 
@@ -59,11 +69,11 @@ Follow these steps for completing your project:
 
 Your finished project must include all of the following requirements:
 
-- [ ] A registration form built with formik - include inputs for a `username` and a `password`
-- [ ] Form validation using Yup
-- [ ] At least one class component (I would challenge you to make the form a class!)
-- [ ] Tests for at least one element, one event, and one unit test for a function
-- [ ] A POST request made from the registration form to `http://localhost:5000/api/register` to add a user - the request body should have the following shape:
+- [x] A registration form built with formik - include inputs for a `username` and a `password`
+- [x] Form validation using Yup
+- [x] At least one class component (I would challenge you to make the form a class!)
+- [x] Tests for at least one element, one event, and one unit test for a function
+- [x] A POST request made from the registration form to `http://localhost:5000/api/register` to add a user - the request body should have the following shape:
 
 ```js
 {
